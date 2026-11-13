@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Beauty Estética</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+
+<body>
+
+<header class="encabezado">
+ <a href="inicio.html" class="logo">Beauty Estética</a>
+
+<nav class="menu">
+    <a href="inicio.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="contacto.html" class="activo">Contacto</a>
+</nav>
+</header>
+
+<main>
+
+<section class="contacto">
+<div class="contacto-intro">
+<p class="subtitulo">ESTAMOS PARA VOS</p>
+
+<h1>Contactanos</h1>
+
+<p>
+¿Querés consultar por alguno de nuestros tratamientos?
+Completá el formulario y dejanos tu mensaje.
+</p>
+</div>
+
+<div class="contacto-contenido">
+
+<form class="formulario-contacto">
+
+<label for="nombre">Nombre y apellido</label>
+<input type="text" id="nombre" name="nombre"
+placeholder="Ingresá tu nombre" required>
+
+<label for="email">Correo electrónico</label>
+<input type="email" id="email" name="email"
+placeholder="Ingresá tu correo" required>
+
+<label for="servicio">Tratamiento de interés</label>
+<select id="servicio" name="servicio" required>
+ <option value="">Seleccioná un servicio</option>
+ <option value="manicuria">Manicuría</option>
+ <option value="capilar">Tratamientos capilares</option>
+ <option value="pestanas">Pestañas pelo por pelo</option>
+ <option value="maquillaje">Maquillaje</option>
+</select>
+
+<label for="mensaje">Tu mensaje</label>
+<textarea id="mensaje" name="mensaje" rows="5"
+placeholder="Escribí tu consulta..." required></textarea>
+
+<button type="submit">Enviar mensaje</button>
+<p id="mensaje-formulario"></p>
+</form>
+
+<div class="contacto-info">
+    <h2>Horarios de atención</h2>
+
+<table>
+<thead>
+<tr>
+ <th>Día</th>
+  <th>Horario</th>
+  </tr>
+  </thead>
+
+  <tbody>
+ <tr>
+  <td>Lunes a viernes</td>
+  <td>09:00 a 18:00</td>
+ </tr>
+
+  <tr>
+   <td>Sábados</td>
+    <td>09:00 a 13:00</td>
+   </tr>
+
+    <tr>
+  <td>Domingos</td>
+   <td>Cerrado</td>
+    </tr>
+   </tbody>
+  </table>
+
+   <p>
+    ¡Será un placer recibirte y ayudarte a encontrar
+     el tratamiento ideal para vos!
+  </p>
+   </div>
+
+ </div>
+</section>
+
+</main>
+
+    <footer class="pie-pagina">
+        <p>© 2026 Beauty Estética - Realzá tu belleza natural.</p>
+    </footer>
+
+<script src="Java/java.js"></script>
+
+</body>
+</html>
