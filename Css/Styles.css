@@ -728,4 +728,91 @@ gap: 18px;
 
 }
 
+/* TABLA DE PRECIOS */
+
+.tabla-precios {
+    width: 90%;
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.tabla-precios h2 {
+    color: #8E172B;
+    margin-bottom: 30px;
+}
+
+.tabla-precios table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(80, 40, 80, 0.12);
+}
+
+.tabla-precios th {
+    background-color: #8E172B;
+    color: white;
+    padding: 16px;
+}
+
+.tabla-precios td {
+    padding: 15px;
+    color: #514052;
+    border-bottom: 1px solid #eaddea;
+}
+
+.tabla-precios tr:nth-child(even) {
+    background-color: #f8f1f8;
+}
+
+.tabla-precios tr:hover {
+    background-color: #f0e3f0;
+    transition: 0.3s;
+}
+
+
+.franja-animada {
+    width: 100%;
+    overflow: hidden;
+    background-color: #8E172B;
+    padding: 16px 0;
+    white-space: nowrap;
+}
+
+.texto-animado {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    animation: desplazar-texto 22s linear infinite;
+}
+
+@keyframes desplazar-texto {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* PIE DE PÁGINA */
+
+.pie-pagina {
+    background-color: #8E172B;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin: 0;
+}
+
+.pie-pagina p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
 
